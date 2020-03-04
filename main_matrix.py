@@ -1,0 +1,31 @@
+from playLA.Matrix import Matrix
+from playLA.Vector import Vector
+if __name__=="__main__":
+    matrix=Matrix([[1,2],[3,4]])
+    print(matrix)
+    matrix2=Matrix([[5,6],[7,8]])
+    print("matrix.shape={}".format(matrix.shape()))
+    print(matrix.size())
+    print(len(matrix))
+    print(matrix.__getitem__((0,1)))
+    print(matrix[0,0])
+    print(matrix.row_vector(0))
+    print(matrix.col_vector(1))
+    print(matrix+matrix2)
+    print(matrix-matrix2)
+    print(matrix*2)
+    print(2*matrix)
+    print(Matrix.zero(2,3))
+    T=Matrix([[1.5,0],[0,2]])
+    p=Vector([5,3])
+    print (T.dot(p))
+
+    P=Matrix([[0,4,5],[0,0,3]])
+    print(T.dot(P))
+    print(matrix.dot(matrix2))
+    print(matrix2.dot(matrix))
+    print(P.T())
+
+    I=Matrix.identity(2)
+    print(I)
+    print(matrix2.dot(I))
