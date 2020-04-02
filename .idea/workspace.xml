@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d281c4e2-9641-4257-a3c2-2536e794c5d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/LinearAlgebra.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LinearAlgebra.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_linear_system.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_linear_system.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_vector.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_vector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playLA/LinearSystem.py" beforeDir="false" afterPath="$PROJECT_DIR$/playLA/LinearSystem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playLA/Vector.py" beforeDir="false" afterPath="$PROJECT_DIR$/playLA/Vector.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +42,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main_lu">
+  <component name="RunManager" selected="Python.main_linear_system">
     <configuration name="main_linear_system" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LinearAlgebra" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -105,27 +106,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main_matrix_transformation" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LinearAlgebra" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main_matrix_transformation.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="main_numpy_matrix" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LinearAlgebra" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -147,13 +127,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main_vector" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="LinearAlgebra" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main_vector.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main_linear_system" />
+        <item itemvalue="Python.main_vector" />
         <item itemvalue="Python.main_lu" />
         <item itemvalue="Python.main_numpy_matrix" />
-        <item itemvalue="Python.main_linear_system" />
         <item itemvalue="Python.main_matrix" />
-        <item itemvalue="Python.main_matrix_transformation" />
       </list>
     </recent_temporary>
   </component>
@@ -171,25 +172,29 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1899" height="262" key="GridCell.Tab.0.bottom" timestamp="1583296009574">
+    <state width="1899" height="262" key="GridCell.Tab.0.bottom" timestamp="1585790592880">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="262" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583296009574" />
-    <state width="1899" height="262" key="GridCell.Tab.0.center" timestamp="1583296009574">
+    <state width="1899" height="262" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1585790592880" />
+    <state width="1899" height="262" key="GridCell.Tab.0.center" timestamp="1585790592880">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="262" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583296009574" />
-    <state width="1899" height="262" key="GridCell.Tab.0.left" timestamp="1583296009574">
+    <state width="1899" height="262" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1585790592880" />
+    <state width="1899" height="262" key="GridCell.Tab.0.left" timestamp="1585790592880">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="262" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583296009574" />
-    <state width="1899" height="262" key="GridCell.Tab.0.right" timestamp="1583296009574">
+    <state width="1899" height="262" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1585790592880" />
+    <state width="1899" height="262" key="GridCell.Tab.0.right" timestamp="1585790592880">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="262" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583296009574" />
-    <state x="2383" y="165" key="SettingsEditor" timestamp="1583292181921">
+    <state width="1899" height="262" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1585790592880" />
+    <state x="2383" y="165" key="SettingsEditor" timestamp="1584762616841">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2383" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583292181921" />
+    <state x="2383" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584762616841" />
+    <state x="2560" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1585788663779">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2560" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1585788663779" />
   </component>
 </project>
